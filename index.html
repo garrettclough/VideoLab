@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar"></div>
+    <div class="navbar">
+        <div class="title">
+            <h1>VideoLab</h1>
+        </div>
+            <input class="search" type="search" placeholder="Seach">
+        <span class="login">
+            <button id ="btn" type="button" onclick="login('#btntext')"><span id="btntext">Login</span></button>
+        </span>
+    </div>
+    <div class="container">
+    <!-- Column 1 | Video -->
+        <div class="column1">
+            <div class="vidcontainer">
+                <video id="mainVideo" width="680" height="320" controls muted onmouseover="this.play()" onmouseout="this.pause()"><source src="video.mp4"></video>
+                <div class="vidinfo">
+                    <div class="vidtitle"><p id="title">Example Video Title</p>
+                    <span class="vidview">1.3K views | June 18, 2021</span></div>
+                    <div class="subbtn"><button id="sub">Subscribe</button></div>
+                </div>
+                <div class="user">
+                    <img id="profilepic" src="user-circle.png">
+                    <p>Example User Name</p>
+                </div>
+            </div>
+        </div>
+    <!-- Column 2 | Up Next Panel -->
+        <div class="column2">
+            <p>Up Next</p>
+            <hr>
+            <div class="upnext">
+                <div class="nextvid">
+                    <img width="140" height="80" src="placeholder.jpeg">
+                    <p>Not a Rick Roll</p>
+                </div>
+                <div class="nextvid">
+                    <img width="140" height="80" src="placeholder.jpeg">
+                    <p>10 Facts About Cats</p>
+                </div>
+                <div class="nextvid">
+                    <img width="140" height="80" src="placeholder.jpeg">
+                    <p>5 Tips on Life</p>
+                </div>
+                <div class="nextvid">
+                    <img width="140" height="80" src="placeholder.jpeg">
+                    <p>Man Eats Fish</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

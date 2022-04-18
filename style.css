@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 2px dotted red;
+}
+
+body {
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+}
+
+.topbar {
+    width: 980px;
+    background-color: purple;
+    margin: auto;
+    padding: 5px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 980px;
+    margin: auto;
+    background-color: rgb(122, 122, 122);
+    padding: 15px 5px;
+}
+
+.title {
+    color: white;
+}
+
+hr {
+    height: 0px;
+    color: black;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.search {
+    width: 480px;
+    height: 34px;
+    border: 2px solid black;
+    text-indent: 5%;
+}
+#btn {
+    color: white;
+    background-color: purple;
+    height: 29px;
+    width: 74px;
+    box-shadow: 3px 3px black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1000px;
+    margin: auto;
+}
+
+.column1 {
+    width: 800px;
+    margin-top: 20px;
+}
+
+.column2 {
+    width: 400px;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+.vidinfo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+.vidview {
+    font-size: 12px;
+    color: grey;
+}
+
+.vidtitle {
+    font-size: 26px;
+}
+
+.subbtn {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+#sub {
+    height: 28px;
+    width: 122px;
+    background-color: purple;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.user {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.user p {
+    color: purple;
+}
+
+#profilepic {
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+}
+
+.upnext {
+    display: block;
+}
+
+.nextvid {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px black;
+}
